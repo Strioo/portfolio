@@ -164,7 +164,7 @@ export const projects = [
       'Educational content about waste management',
       'Interactive waste classification system'
     ],
-    image: '/src/assets/images/projects/Greenify.png',
+    image: '/images/projects/Greenify.png',
     techStack: ['HTML', 'CSS', 'JavaScript'],
     liveUrl: 'https://greenify-rose.vercel.app/',
     githubUrl: 'https://github.com/Strioo/Greenify',
@@ -183,7 +183,7 @@ export const projects = [
       'Search and filter by culture category',
       'Responsive modern design'
     ],
-    image: '/src/assets/images/projects/RuangNusantara.png',
+    image: '/images/projects/RuangNusantara.png',
     techStack: ['SolidJS', 'TailwindCSS'],
     liveUrl: 'https://ruang-nusantara-ten.vercel.app/',
     githubUrl: 'https://github.com/Strioo/RuangNusantara',
@@ -205,7 +205,7 @@ export const projects = [
       'AI chatbot for village inquiries',
       'Village profile and information'
     ],
-    image: '/src/assets/images/projects/Webdesa-baturaden.png',
+    image: '/images/projects/Webdesa-baturaden.png',
     techStack: ['Next.js', 'TailwindCSS'],
     liveUrl: 'https://webdesa-fe.vercel.app/',
     githubUrl: 'https://github.com/Strioo/webdesa-baturaden',
@@ -225,7 +225,7 @@ export const projects = [
       'Contact form integration',
       'Modern responsive design'
     ],
-    image: '/src/assets/images/projects/Inxora.png',
+    image: '/images/projects/Inxora.png',
     techStack: ['React', 'TailwindCSS'],
     liveUrl: 'https://inxora-fe.vercel.app/',
     githubUrl: 'https://github.com/Strioo/Inxora_fe',
@@ -245,7 +245,7 @@ export const projects = [
       'Admin dashboard',
       'User authentication and authorization'
     ],
-    image: '/src/assets/images/projects/DevAcademy.png',
+    image: '/images/projects/DevAcademy.png',
     techStack: ['Laravel', 'Bootstrap'],
     liveUrl: null, // No live demo
     githubUrl: 'https://github.com/Strioo/DevAcademy-static',
@@ -354,7 +354,7 @@ export const certificates = [
     issuer: 'PT Telkom Indonesia',
     date: 'November 2024',
     description: 'Sertifikat kompetensi bidang cyber security, meliputi fundamental keamanan jaringan, simulasi serangan siber, serta penggunaan tools keamanan digital. Peserta program resmi dan lulus pelatihan bersertifikat nasional.',
-    image: '/src/assets/images/certificates/digiup.jpg',
+    image: '/images/certificates/digiup.jpg',
   },
   {
     id: 2,
@@ -362,7 +362,7 @@ export const certificates = [
     issuer: 'Oracle',
     date: 'December 2024',
     description: 'Database management and SQL fundamentals certification from Oracle, covering database design, queries, and administration.',
-    image: '/src/assets/images/certificates/oracle.jpg',
+    image: '/images/certificates/oracle.jpg',
   },
   {
     id: 3,
@@ -370,6 +370,6 @@ export const certificates = [
     issuer: 'Universitas Muria Kudus',
     date: 'November 2025',
     description: 'Participated in web development competition at UMK ITFEST in Kudus, showcasing technical skills and problem-solving abilities in web development.',
-    image: '/src/assets/images/certificates/umk-itfest.jpg',
+    image: '/images/certificates/umk-itfest.jpg',
   },
 ];

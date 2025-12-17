@@ -37,7 +37,7 @@ const HeroStatsCard = () => {
         {/* Main Photo with proper aspect ratio */}
         <div className="relative w-full aspect-3/4 max-w-95 mx-auto overflow-hidden rounded-[2.5rem]">
           <img
-            src="/src/assets/images/my-photo-hero-section.png"
+            src="/images/my-photo-hero-section.png"
             alt={personalInfo.name}
             className="w-full h-full object-cover object-top shadow-2xl relative z-10"
             onError={(e) => {
