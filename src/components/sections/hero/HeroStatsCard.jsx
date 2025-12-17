@@ -68,7 +68,7 @@ const HeroStatsCard = () => {
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-[#61dafb]/10 rounded-xl flex items-center justify-center border border-[#61dafb]/20">
                   <img 
-                    src="/src/assets/icons/reactjs.png" 
+                    src="/icons/reactjs.png" 
                     alt="React" 
                     className="w-8 h-8 object-contain"
                   />
@@ -90,7 +90,7 @@ const HeroStatsCard = () => {
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-[#3178c6]/10 rounded-xl flex items-center justify-center border border-[#3178c6]/20">
                   <img 
-                    src="/src/assets/icons/Typescript.png" 
+                    src="/icons/Typescript.png" 
                     alt="TypeScript" 
                     className="w-8 h-8 object-contain"
                   />
@@ -112,7 +112,7 @@ const HeroStatsCard = () => {
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-[#38bdf8]/10 rounded-xl flex items-center justify-center border border-[#38bdf8]/20">
                   <img 
-                    src="/src/assets/icons/tailwindcss.png" 
+                    src="/icons/tailwindcss.png" 
                     alt="Tailwind CSS" 
                     className="w-8 h-8 object-contain"
                   />

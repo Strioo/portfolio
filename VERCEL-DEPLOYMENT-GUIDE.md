@@ -4,15 +4,33 @@
 
 ### 1. **Persiapan File & Folder**
 
-#### ❌ TIDAK PERLU Pindah Image ke Public
-**Alasan:**
-- Vite akan otomatis bundle semua assets dari `src/assets/`
-- Image akan di-optimize dan di-hash untuk caching
-- Path akan otomatis ter-resolve saat build
+#### ✅ Images SUDAH di Public Folder (FIXED!)
+**Update:** Images sudah dipindahkan ke `public/images/` untuk production deployment.
 
-#### ✅ Yang Harus di Public Folder:
-- ✅ `Inxora_logo_bg-dark.svg` (favicon) - **Sudah ada**
-- ✅ File static lain yang tidak perlu di-bundle (robots.txt, dll)
+**Structure:**
+```
+public/
+├── Inxora_logo_bg-dark.svg        # Favicon
+└── images/
+    ├── my-photo-hero-section.png
+    ├── certificates/
+    │   ├── digiup.jpg
+    │   ├── oracle.jpg
+    │   └── umk-itfest.jpg
+    └── projects/
+        ├── Greenify.png
+        ├── RuangNusantara.png
+        ├── Webdesa-baturaden.png
+        ├── Inxora.png
+        └── DevAcademy.png
+```
+
+**Path Format:**
+- ✅ `/images/projects/Greenify.png`
+- ✅ `/images/certificates/digiup.jpg`
+- ✅ `/images/my-photo-hero-section.png`
+
+📖 **Detail lengkap:** Lihat `IMAGE-PATH-FIX.md`
 
 ### 2. **Environment Variables**
 Tidak ada environment variables yang perlu di-setup untuk project ini.
